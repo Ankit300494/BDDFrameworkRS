@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-02T17:21:13.995Z",
+        "line": 8,
+        "name": "In order to verify Login to facebook",
+        "description": "",
+        "id": "application-login;in-order-to-verify-login-to-facebook",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34294045000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to facebook website",
+            "match": {
+              "location": "stepDefinition.stepDef.user_navigates_to_facebook_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218699000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "stepDefinition.stepDef.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "In order to perform successfull Login\nAs a user\nI want to enter correct username and password",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/undoFeature/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,42 @@
+package stepDefinition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class stepDef {
+
+	
+	io.cucumber.junit.UndefinedStepException: The step 'User navigates to facebook website' and 4 other step(s) are undefined.
+	You can implement these steps using the snippet(s) below:
+
+	@Given("User navigates to facebook website")
+	public void user_navigates_to_facebook_website() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("user validates the homepage title")
+	public void user_validates_the_homepage_title() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("User entered the username")
+	public void user_entered_the_username() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("User entered the password")
+	public void user_entered_the_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("User should be successfully Logged in")
+	public void user_should_be_successfully_logged_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+ 
+}

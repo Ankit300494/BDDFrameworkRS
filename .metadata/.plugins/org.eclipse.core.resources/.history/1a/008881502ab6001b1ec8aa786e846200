@@ -1,0 +1,21 @@
+Feature: Application Login
+
+In order to perform successfull Login
+As a user
+I want to enter correct username and password
+
+
+Scenario: In order to verify Login to facebook
+			Given User navigates to facebook website
+			When user validates the homepage title
+			Then User entered the "valid" username
+			And  User entered the "valid" password
+		  Then User "shouldbe" successfully Logged in
+
+Scenario: In order to verify Login to facebook as invalid user
+			Given User navigates to facebook website
+			When user validates the homepage title
+			Then User entered the "invalid" username
+			And  User entered the "invalid" password
+			Then User "shouldnotbe" successfully Logged in
+			
