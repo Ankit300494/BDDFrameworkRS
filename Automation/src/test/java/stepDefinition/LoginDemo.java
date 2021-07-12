@@ -33,6 +33,7 @@ public class LoginDemo
 		driver.get("https://example.testproject.io/web/");
 		loginPF = new LoginPage_PF(driver);
 	    home = new HomePage_PF(driver);
+	    System.out.println("Before Hook is working..");
 		
 	}
 	@Given("User navigates to Google home page")
@@ -68,5 +69,6 @@ public class LoginDemo
 	public void browserquit()
 	{
 		driver.close();
+		System.out.println("After Hook is working..");
 	}
 }
